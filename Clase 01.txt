@@ -1,0 +1,42 @@
+man //comando para abrir el manual
+man man // manual para saber como se usa el manual
+man// sirve para buscar para que sirve cualquier comando ej man ls dira para que sirve ls
+man info //manual
+info man //informacion
+///////////////////////////////////////////////////////////////////////
+pwd //dice en que carpeta estas
+ls // nombra las carpetas que hay lista archivos
+
+echo "hola mundo" >> texto.txt//crea un archivo de texto
+ls -lstah//muestra carpetas ocultas en su totalidad
+ls -lsta // ls -lst // ls -s // ls-t
+cat texto.txt //muestra el contenido de la carpeta
+more texto.txt
+less texto.txt
+history //muestra el historial de comandos usados
+history >> historial.txt //usado para guardar en un txt el historial de comandos
+cat historial.txt //muestra el archivo txt del historial guaradado
+mkdir uno //creo un sub directorio
+
+cd //usado para entrar en la carpeta
+cd .. //usado para retroseder
+tree // muestra un arbol con todas las carpetas y sub carpetas (es un archivo de texto)
+tree >> miarbol.txt // guarda el arbol en txt
+cat miarbol.txt //muestra el arbol en txt
+tree | less //permite ver los subdirectorios y recorrer el archivo sin generarlo
+sudo // me transforma en super usuariopwd pero no soy el root
+sudo su // cambia de usuario y me deja donde estoy se queda en el home de alumno
+//se debe escribir la contraseña alumno
+exit //me saca del super usuario
+sudo su- //entro al directorio root y me convierte en superusuario
+login //es usado para cambiar de usuario
+echo "echo hola " >> saludar //creamos esto en uno/unobis
+echo "echo hola " >> uno/unobis/saludar //usado para crear saludar sin moverse
+./uno/unobis/saludar //permiso denegado antes hay que hacerlo ejecutable
+chmod 777 uno/unobis/saludar //permite hacer ejecutable al archivo
+alumno@alumno-VirtualBox:~$ ./uno/unosbis/saludar //mostrara "hola" en vez de "echo hola" esto es porque ejecuta el saludo
+
+mkdir {dos,tres,cuatro}
+mkdir -p otro/{otroBis} //usado para que permita crear
+mkdir -p a/{b,c}
+alumno@alumno-VirtualBox:~$ mkdir -p fotos/{viaje,trabajo}/mias

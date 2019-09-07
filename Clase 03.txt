@@ -1,0 +1,25 @@
+uname  :nombre de la distribucion
+uname -r :version de la distro
+uname -m :arquitectura del sistema
+hostname :nombre del host
+hostname -i :ip
+last reboot :ultimo inicio
+last :ultimo loggeos
+date :datos(dia/mes/hora)
+cal :calendario
+whoami :nombre de usuario
+w :que usuario esta en que consola
+
+finger usuario
+finger -s usuario
+
+-COMANDOS DE SISTEMA
+echo $USER
+echo $HOME
+echo $HOSTNAME
+echo $PWD
+echo $SHELL :ubicacion de la consola
+
+cat /proc/cpuinfo
+cat /proc/meminfo
+cat /proc/interrupts
